@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+body{
+  background-color: #007bff !important;
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+.Card{
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 24px 22px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 2px;
+  width: 400px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-animation: NAME-YOUR-ANIMATION 2s ; /* Safari 4+ */
+  -moz-animation:    NAME-YOUR-ANIMATION 2s ; /* Fx 2+ */
+  -o-animation:      NAME-YOUR-ANIMATION 2s ; /* Opera 12+ */
+  animation:         NAME-YOUR-ANIMATION 2s ; /* IE 10+, Fx 29+ */
+  border:#cd3242 solid 2px !important ;
+}
+.prop{
+  
+  background-color: rgb(243, 234, 234);
+  padding: 2px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.sectionMl{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; 
+
+}
+.mouvilists{
+  width: 1660px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.btn-primary {
+background-color: #ce3242 !important;
+margin-bottom: 20px;
+}
+.navbar-brand{
+  padding: 10px;
+  margin-left: 20px;
+  font-size: xx-large !important;
+}
+.form-inline{
+  flex-wrap: wrap;
+  font-weight: bold;
+  color: white;
+  font-size: large !important;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  padding: 4px;
+}
+.xakka{
+  height: 100px;
+  margin-top: 50px;
+  display:flex;
+  
+ 
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.315);
+}
+.footer{
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
+.moreDesc{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.descrp{flex-wrap: wrap;
+  width: max-content;
+  padding: 20px;
+  background-color: #f2f4f6;
+  color: black;
+  font-size: x-large;
+
+}
+.video{
+  margin: 30px;
+}
+.more{
+  text-align: center;
+  color: white;
+}
